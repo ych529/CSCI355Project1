@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="../Home/Home.html"> Home</a></li>
+            <li><a href="../Bento/Bento.html"> Bento</a></li>
+            <li><a href="../Contact/Contact.html"> Contact</a></li>
+        </ul>
+    </nav>
+    <header class="bg">
+        <h1>Contact us</h1>
+        <div class="loading-text">0%</div>
+    </header>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+
+    <div id="ContactUs"
+        style="background-image: url(https://www.pngkey.com/png/detail/111-1116841_contact-info-contact-us-background.png);">
+            <table style="width:100%">
+                <tr>
+                    <th>Store Address</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>1 HRT Ave, New York, NY 10001</td>
+                    <td>917-777-0001</td>
+                    <td>Feng.Hui1@Bento.com</td>
+                </tr>
+                <tr>
+                    <td>2 Queens Blvd, Queens, NY 11367</td>
+                    <td>917-777-0002</td>
+                    <td>Feng.Hui2@Bento.com</td>
+                </tr>
+			  <tr>
+                    <td>3 Bkly Ave, Brooklyn, NY 11678</td>
+                    <td>917-777-0003</td>
+                    <td>Feng.Hui3@Bento.com</td>
+                </tr>
+            </table>
+        <div id="background"></div>
+
+        <form id="info" method="post">
+            <div class="formgroup" id="name-form">
+                <label for="name">Your Name*</label>
+                <input type="text" id="name" name="name" />
+            </div>
+
+            <div class="formgroup" id="email-form">
+                <label for="email">Your E-mail*</label>
+                <input type="email" id="email" name="email" />
+            </div>
+
+            <div class="formgroup" id="message-form">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+
+            <input type="submit" value="Send message!" />
+
+    </div>
+    </form>
+
+    <script src="Contact.js"></script>
+
+
+</body>
+<footer>Owners: Fengsheng Chen & Yaohui Chen</footer>
+
+</html>
